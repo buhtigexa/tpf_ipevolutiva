@@ -1,0 +1,10 @@
+La clase Chromosome se implementa como un vector de Enteros. Estos son generados como una población mediante PopulationGenerator.
+
+
+Los diferentes subtipos de crossover generan también nuevos cromosomas. Y cada cromosoma también puede calcular su Fitness.
+El Algortímo genético, tal como se describió basa su funcionamiento específico en una Configuration, cuyos parámetros son acondicionados por el usuario ( seleccion de sobrevivientes, método de generacion de población, seleccion de padres, función de fitness,etc).
+
+Parent selection implementa en sus subclases los mecanismos de selección de padres mencionados.
+
+
+
